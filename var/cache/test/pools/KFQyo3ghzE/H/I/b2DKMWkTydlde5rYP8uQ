@@ -1,0 +1,50 @@
+<?php
+
+namespace Symfony\Component\VarExporter\Internal;
+
+return $getExpiry ? PHP_INT_MAX : Hydrator::hydrate(
+    $o = [
+<<<<<<< HEAD
+        clone (($p = &Registry::$prototypes)['Symfony\\Component\\Routing\\Annotation\\Route'] ?? Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        clone ($p['Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\IsGranted'] ?? Registry::p('Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\IsGranted')),
+=======
+        clone (Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+>>>>>>> 3dfc82b8ab8b96c8a5fe064166e6b91acc1808b2
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/modifuser/{id}',
+            ],
+            'name' => [
+<<<<<<< HEAD
+                'modif_user',
+=======
+                'modif_compte',
+>>>>>>> 3dfc82b8ab8b96c8a5fe064166e6b91acc1808b2
+            ],
+            'methods' => [
+                [
+                    'PUT',
+                ],
+            ],
+        ],
+<<<<<<< HEAD
+        'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\IsGranted' => [
+            'attributes' => [
+                1 => 'ROLE_SUPERADMIN',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+=======
+    ],
+    [
+        $o[0],
+>>>>>>> 3dfc82b8ab8b96c8a5fe064166e6b91acc1808b2
+    ],
+    []
+);

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Project Test Suite" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="10.130784">
+    <testsuite name="App\Tests\PartenaireControllerTest" file="/home/mister_d/Bureau/transfert/tests/PartenaireControllerTest.php" tests="1" assertions="0" errors="1" failures="0" skipped="0" time="10.130784">
+      <testcase name="testAddPartenaireok" class="App\Tests\PartenaireControllerTest" classname="App.Tests.PartenaireControllerTest" file="/home/mister_d/Bureau/transfert/tests/PartenaireControllerTest.php" line="9" assertions="0" time="10.130784">
+        <error type="ParseError">App\Tests\PartenaireControllerTest::testAddPartenaireok
+ParseError: syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file
+
+/home/mister_d/Bureau/transfert/var/cache/test/pools/KFQyo3ghzE/A/Z/+TkiZkJiiHQZ5kLcgP-A:3
+/home/mister_d/Bureau/transfert/vendor/symfony/cache/Traits/AbstractAdapterTrait.php:51
+/home/mister_d/Bureau/transfert/vendor/symfony/cache/Adapter/PhpArrayAdapter.php:127
+/home/mister_d/Bureau/transfert/vendor/symfony/cache/DoctrineProvider.php:54
+/home/mister_d/Bureau/transfert/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php:60
+/home/mister_d/Bureau/transfert/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:227
+/home/mister_d/Bureau/transfert/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:189
+/home/mister_d/Bureau/transfert/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:78
+/home/mister_d/Bureau/transfert/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php:91
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Loader/AnnotationClassLoader.php:265
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Loader/AnnotationClassLoader.php:108
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Loader/AnnotationDirectoryLoader.php:67
+/home/mister_d/Bureau/transfert/vendor/symfony/config/Loader/FileLoader.php:151
+/home/mister_d/Bureau/transfert/vendor/symfony/config/Loader/FileLoader.php:90
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Loader/YamlFileLoader.php:190
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Loader/YamlFileLoader.php:84
+/home/mister_d/Bureau/transfert/vendor/symfony/config/Loader/FileLoader.php:151
+/home/mister_d/Bureau/transfert/vendor/symfony/config/Loader/FileLoader.php:90
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Loader/GlobFileLoader.php:32
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/RouteCollectionBuilder.php:372
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/RouteCollectionBuilder.php:62
+/home/mister_d/Bureau/transfert/src/Kernel.php:50
+/home/mister_d/Bureau/transfert/vendor/symfony/framework-bundle/Kernel/MicroKernelTrait.php:92
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Loader/ObjectRouteLoader.php:70
+/home/mister_d/Bureau/transfert/vendor/symfony/config/Loader/DelegatingLoader.php:40
+/home/mister_d/Bureau/transfert/vendor/symfony/framework-bundle/Routing/DelegatingLoader.php:72
+/home/mister_d/Bureau/transfert/vendor/symfony/framework-bundle/Routing/Router.php:71
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Router.php:405
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Router.php:309
+/home/mister_d/Bureau/transfert/vendor/symfony/config/ResourceCheckerConfigCacheFactory.php:43
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Router.php:322
+/home/mister_d/Bureau/transfert/vendor/symfony/routing/Router.php:270
+/home/mister_d/Bureau/transfert/vendor/symfony/http-kernel/EventListener/RouterListener.php:117
+/home/mister_d/Bureau/transfert/vendor/symfony/event-dispatcher/Debug/WrappedListener.php:126
+/home/mister_d/Bureau/transfert/vendor/symfony/event-dispatcher/EventDispatcher.php:258
+/home/mister_d/Bureau/transfert/vendor/symfony/event-dispatcher/EventDispatcher.php:233
+/home/mister_d/Bureau/transfert/vendor/symfony/event-dispatcher/EventDispatcher.php:73
+/home/mister_d/Bureau/transfert/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php:168
+/home/mister_d/Bureau/transfert/vendor/symfony/http-kernel/HttpKernel.php:127
+/home/mister_d/Bureau/transfert/vendor/symfony/http-kernel/HttpKernel.php:68
+/home/mister_d/Bureau/transfert/vendor/symfony/http-kernel/Kernel.php:198
+/home/mister_d/Bureau/transfert/vendor/symfony/http-kernel/Client.php:68
+/home/mister_d/Bureau/transfert/vendor/symfony/framework-bundle/Client.php:131
+/home/mister_d/Bureau/transfert/vendor/symfony/browser-kit/Client.php:407
+/home/mister_d/Bureau/transfert/tests/PartenaireControllerTest.php:14
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
